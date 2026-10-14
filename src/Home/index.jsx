@@ -22,7 +22,7 @@ function Home() {
       alert(idioma === 'pt' ? 'Por favor, preencha todos os campos!' : 'Please fill in all fields!');
       return;
     }
-    // Exemplo de envio / integração com EmailJS
+   
     alert(idioma === 'pt' ? 'Mensagem enviada com sucesso!' : 'Message sent successfully!');
     setForm({ nome: '', email: '', mensagem: '' });
   };
@@ -52,7 +52,6 @@ function Home() {
 
   const t = textos[idioma];
 
-  // Dados dos projetos em linha do tempo (do mais antigo ao mais recente)
   const projetos = [
     {
       id: 1,
@@ -111,7 +110,7 @@ function Home() {
         </button>
       </nav>
 
-      {/* SEÇÃO SOBRE MIM */}
+
       <section id='sobre' className='sobre-mim'>
         <h2>{t.sobreTitulo}</h2>
         <div className='sobre-mim-conteudo'>
@@ -120,7 +119,6 @@ function Home() {
         </div>
       </section>
 
-      {/* SEÇÃO PROJETOS (TIMELINE) */}
       <section id='projetos' className='projetos'>
         <h2>{t.projetosTitulo}</h2>
         <div className='timeline'>
@@ -143,7 +141,6 @@ function Home() {
         </div>
       </section>
 
-      {/* SEÇÃO EXPERIÊNCIAS */}
       <section id='experiencias' className='experiencias'>
         <h2>{t.experienciaTitulo}</h2>
         <div className='experiencias-lista'>
@@ -157,7 +154,6 @@ function Home() {
         </div>
       </section>
 
-      {/* SEÇÃO CONTATO */}
       <section id='contato' className='contato'>
         <h2>{t.contatoTitulo}</h2>
         <p className='contato-sub'>{t.contatoSub}</p>

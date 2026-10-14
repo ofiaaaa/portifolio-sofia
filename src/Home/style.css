@@ -76,7 +76,6 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-/* Sobre Mim */
 .sobre-mim-conteudo {
   display: flex;
   align-items: center;
@@ -99,7 +98,6 @@ h2 {
   line-height: 1.6;
 }
 
-/* Projetos */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -166,7 +164,6 @@ article.experiencia-card {
   font-weight: bold;
 }
 
-/* Formulario */
 .contato-sub {
     font-size: 1.2rem;
     display: flex;
@@ -212,6 +209,6 @@ article.experiencia-card {
 
 footer {
   margin-top: 2rem;
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 1.2rem;
+  color: hsl(263, 100%, 97%);
 }
