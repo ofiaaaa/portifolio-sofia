@@ -30,6 +30,15 @@ Aplicação Web desenvolvida em **React + Vite** para apresentar minha trajetór
 
 ---
 
+## Wireframes
+
+![Sobre mim](./src/assets/sobre-mim.png)
+![Projetos](./src/assets/projetos.png)
+![Experiência](./src/assets/experiencia.png)
+![Contato](./src/assets/contato.png)
+
+---
+
 ## 🚀 Como Executar o Projeto
 
 1. **Clone o repositório:**
