@@ -6,7 +6,7 @@ Aplicação Web desenvolvida em **React + Vite** para apresentar minha trajetór
 
 ## 🔗 Links Úteis
 
-* 🌐 **Demo Online:** [Acesse o Portfólio]()
+* 🌐 **Demo Online:** [Acesse o Portfólio](https://portifolio-sofia-iota.vercel.app)
 * 📦 **Repositório GitHub:** [GitHub - Sofia Vassallo](https://github.com/ofiaaaa/portifolio-sofia)
 
 ---

@@ -2,6 +2,11 @@ import { useState } from 'react';
 import './style.css';
 import wikiCrepusculo from '../assets/wiki-crepusculo.png';
 import catalogoFilmes from '../assets/catalogo-filmes.png';
+import fotoSofia from '../assets/sofia.jpg';
+import iconInstagram from '../assets/instagram-brands-solid.png';
+import iconLinkedin from '../assets/linkedin-in-brands-solid.png';
+import iconEnvelope from '../assets/envelope-regular.png';
+import iconGithub from '../assets/github-brands-solid.png';
 
 function Home() {
   const [idioma, setIdioma] = useState('pt');
@@ -114,7 +119,7 @@ function Home() {
       <section id='sobre' className='sobre-mim'>
         <h2>{t.sobreTitulo}</h2>
         <div className='sobre-mim-conteudo'>
-          <img src="src/assets/sofia.jpg" alt="Foto de perfil de Sofia Vassallo" />
+          <img src={fotoSofia} alt="Foto de perfil de Sofia Vassallo" />
           <p className='texto-sobre-mim'>{t.sobreTexto}</p>
         </div>
       </section>
@@ -160,16 +165,16 @@ function Home() {
 
         <div className='redes-sociais'>
           <a className='rede-social' href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiVpNTx-7mXAxXNqZUCHQGgIvEQFnoECCAQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fofiappg%2F&usg=AOvVaw2acLfDFlSHHClrqTI-EgwO&opi=89978449" target="_blank" rel="noreferrer">
-            <img src="src/assets/instagram-brands-solid.png" alt="Instagram" />
+            <img src={iconInstagram} alt="Instagram" />
           </a>
           <a className='rede-social' href="www.linkedin.com/in/sofia-vassallo-de-andrade-846687323" target="_blank" rel="noreferrer">
-            <img src="src/assets/linkedin-in-brands-solid.png" alt="LinkedIn" />
+            <img src={iconLinkedin} alt="LinkedIn" />
           </a>
           <a className='rede-social' href="sofiavassallo36@gmail.com">
-            <img src="src/assets/envelope-regular.png" alt="E-mail" />
+            <img src={iconEnvelope} alt="E-mail" />
           </a>
           <a className='rede-social' href="https://github.com/ofiaaaa" target="_blank" rel="noreferrer">
-            <img src="src/assets/github-brands-solid.png" alt="GitHub" />
+            <img src={iconGithub} alt="GitHub" />
           </a>
         </div>
 
